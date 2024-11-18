@@ -1,0 +1,19 @@
+start
+   Declarations
+      string targetWord = "logic"  // Choose any word for the task
+      string currentWord
+      bool wordFound = false
+   output "Open the dictionary"
+   while wordFound = false
+      output "What word do you see?"
+      input currentWord
+      if currentWord = targetWord then
+         output "You found the word!"
+         wordFound = true
+      else if currentWord < targetWord then
+         output "The word is further in the dictionary. Flip forward."
+      else
+         output "The word is earlier in the dictionary. Flip backward."
+      endif
+   endwhile
+stop
