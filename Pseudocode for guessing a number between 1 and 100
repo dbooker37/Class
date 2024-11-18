@@ -1,0 +1,16 @@
+start
+   Declarations
+      num targetNumber = 42  // You can choose any number between 1 and 100
+      num guess
+   output "Guess a number between 1 and 100"
+   input guess
+   while guess <> targetNumber
+      if guess < targetNumber then
+         output "Too low! Try again."
+      else if guess > targetNumber then
+         output "Too high! Try again."
+      endif
+      input guess
+   endwhile
+   output "Congratulations! You guessed the correct number!"
+stop
