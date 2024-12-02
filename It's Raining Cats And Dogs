@@ -1,0 +1,9 @@
+# Define the variables
+c = "cats"  # Represents 'cats'
+d = "dogs"  # Represents 'dogs'
+
+# Create the sentence using the variables
+s = "It is raining " + c + " and " + d + "."  # Construct the sentence
+
+# Print the final sentence to the screen
+print(s)
